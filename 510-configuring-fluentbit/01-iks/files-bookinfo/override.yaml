@@ -1,0 +1,9 @@
+humio-fluentbit:
+  enabled: true
+  humioHostname: 1.2.3.4
+  humioRepoName: sandbox
+  kubernetesType: "ibm"
+  es:
+    tls: false
+    port: 8080
+    autodiscovery: false
