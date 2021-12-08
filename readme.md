@@ -103,6 +103,7 @@ The pages with the text `Page Status : Final` at the bottom indicates that the m
         <td width="8%">Environment</td>
         <td width="20%">Reference</td>
     </tr>
+    <tr>
         <td>4.1</td>
         <td>Install Humio</td>
         <td>Setup Humio on a single node (16 core, 64 GB)</td>
@@ -146,7 +147,6 @@ The pages with the text `Page Status : Final` at the bottom indicates that the m
     <tr>
         <td width="4%">S.No</td>
         <td width="28%">Title</td>
-        <td width="28%">Title</td>
         <td width="48%">Description</td>
         <td width="20%">Reference</td>
     </tr>
@@ -155,6 +155,7 @@ The pages with the text `Page Status : Final` at the bottom indicates that the m
         <td>Setup Slack Integration</td>
         <td>Integrate with Slack collaboration platform. Need to copy nginx certificate as well.</td>
         <td>
+
 [Details](./300-aiops-initial-configuration/13-slack-account-creation-and-integration)
 </td>
     </tr>
@@ -162,7 +163,9 @@ The pages with the text `Page Status : Final` at the bottom indicates that the m
         <td>5.2</td>
         <td>Setup Humio Integration</td>
         <td>&nbsp;</td>
-        <td> [Details](./300-aiops-initial-configuration/10-setup-humio-Integration)</td>
+        <td> 
+        
+[Details](./300-aiops-initial-configuration/10-setup-humio-Integration)</td>
     </tr>
     <tr>
         <td>5.3</td>
