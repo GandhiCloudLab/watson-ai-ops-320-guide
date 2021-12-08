@@ -37,7 +37,7 @@ oc get secret -n $NAMESPACE external-tls-secret -o yaml > external-tls-secret.ya
 # delete existing secret
 oc delete secret -n $NAMESPACE external-tls-secret
 # create new secret
-oc create secret generic -n $NAMESPACE external-tls-secret --from-file=cert.crt=cert.crt --from-file=cert.key=cert.key --dry-run=client -o yaml | oc apply -f -
+oc create secret generic -n $NAMESPACE external-tls-secret --from-file=cert.crt=cert.crt --from-file=cert.key=cert.key
 # scale down nginx
 # REPLICAS=$(oc get pods -l component=ibm-nginx -o jsonpath='{ .items[*].metadata.name }' | wc -w)
 oc scale Deployment/ibm-nginx --replicas=0
