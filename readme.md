@@ -6,9 +6,9 @@ The article is based on the the following
  - RedHat OpenShift 4.8 on IBM Cloud (ROKS)
  - Watson AIOps 3.2.0
 
-#### Note : 
+#### Note :
 
-We are migrating this document from WA 3.1 to WA 3.2. So this is a work in-progress document and frequent changes are expected. 
+We are migrating this document from WA 3.1 to WA 3.2. So this is a work in-progress document and frequent changes are expected.
 
 The pages with the text `Page Status : Final` at the bottom indicates that the migration is complete.
 
@@ -26,14 +26,21 @@ The pages with the text `Page Status : Final` at the bottom indicates that the m
         <td>Prerequisites to install Watson AIOps</td>
         <td>
 
-[Details ...](./01-install-roks-iks-humio) 
+[Details ...](./01-install-roks-iks-humio)
+        </td>
+    </tr>
+        <tr>
+        <td>1.2</td>
+        <td>Updating Global Pull Secrets before installing WAIOps 3.2</td>
+        <td>
+[Details ...](./02-update-global-pull-secrets)
         </td>
     </tr>
     <tr>
-        <td>1.2</td>
+        <td>1.3</td>
         <td>Installing Watson AIOps AI-Manager on ROKS</td>
         <td>
-[Details ...](./03-install-ai-manager-in-roks) 
+[Details ...](./03-install-ai-manager-in-roks)
         </td>
     </tr>
 
@@ -125,44 +132,42 @@ The pages with the text `Page Status : Final` at the bottom indicates that the m
         <td>ServiceNow</td>
         <td>[Details ...](https://developer.servicenow.com/dev.do)</td>
     </tr>
-       <tr>
+    <tr>
         <td>4.5 </td>
         <td>Create Sample Incidents in Service now</td>
         <td></td>
         <td>ServiceNow</td>
         <td>[Details](./330-aiops-training/12-similar-incidents-training#user-content-preparation)</td>
-    </tr>   
-  </table>
+    </tr>
+</table>
 
 ### 5. Setup Initial Configurations in Watson AIOps 3.2.0
-
 <table>
     <tr>
         <td width="4%">S.No</td>
         <td width="28%">Title</td>
+        <td width="28%">Title</td>
         <td width="48%">Description</td>
         <td width="20%">Reference</td>
     </tr>
-       
     <tr>
-    <td>5.1</td>
-    <td>Setup Slack Integration</td>
-    <td>Integrate with Slack collaboration platform. Need to copy nginx certificate as well.</td>
-    <td>
-[Details] (./300-aiops-initial-configuration/13-slack-account-creation-and-integration)
-        </td>
+        <td>5.1</td>
+        <td>Setup Slack Integration</td>
+        <td>Integrate with Slack collaboration platform. Need to copy nginx certificate as well.</td>
+        <td>
+[Details](./300-aiops-initial-configuration/13-slack-account-creation-and-integration)
+</td>
     </tr>
     <tr>
         <td>5.2</td>
         <td>Setup Humio Integration</td>
-        <td></td>
-        <td>[Details](./300-aiops-initial-configuration/10-setup-humio-Integration)
-        </td>
+        <td>&nbsp;</td>
+        <td> [Details](./300-aiops-initial-configuration/10-setup-humio-Integration)</td>
     </tr>
     <tr>
         <td>5.3</td>
         <td>Setup Servicenow Integration</td>
-        <td></td>
+        <td>&nbsp;</td>
         <td>
 [Details](./300-aiops-initial-configuration/11-setup-servicenow-integration)
         </td>
@@ -170,7 +175,7 @@ The pages with the text `Page Status : Final` at the bottom indicates that the m
     <tr>
         <td>5.4</td>
         <td>Setup Kubernetes Integration</td>
-        <td></td>
+        <td>&nbsp;</td>
         <td>
 [Details](./10-setup-kubernetes-observer)
         </td>
@@ -206,7 +211,7 @@ The pages with the text `Page Status : Final` at the bottom indicates that the m
         <td>7.1</td>
         <td>Create Training Definition for Log Anomaly Detection </td>
         <td>
-        
+
 [Details](./30-ai-model-definition-log-anomaly)  
         </td>
     </tr>
@@ -214,7 +219,7 @@ The pages with the text `Page Status : Final` at the bottom indicates that the m
         <td>7.2</td>
         <td>Create Training Definition for Similar Incidents </td>
         <td>
-        
+
 [Details](./320-aiops-ai-model-management/12-create-training-definition-incidents)  
         </td>
     </tr>    
@@ -234,7 +239,7 @@ The pages with the text `Page Status : Final` at the bottom indicates that the m
         <td>Generate Load</td>
         <td>Generate the load for the bookinfo app.</td>
         <td>
-        
+
 [Details](./501-bookinfo-load-generation)
         </td>
     </tr>    
