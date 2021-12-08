@@ -185,7 +185,11 @@ Copy the slack url
 
 1. Login into AIOps installed cluster using `oc login ...` command .
 
-2. Goto the AIOps installed namespace `oc project ...`
+2. Goto the AIOps installed namespace`
+
+```
+oc project cp4waiops
+```
 
 3. There is a script file [update-nginx-v310.sh](./files/update-nginx-v310.sh)
 

@@ -31,6 +31,7 @@ NAMESPACE=$(oc project -q)
 ingress_pod=$(oc get secrets -n openshift-ingress | grep tls | grep -v router-metrics-certs-default | awk '{print $1}')
 oc get secret -n openshift-ingress -o 'go-template={{index .data "tls.crt"}}' ${ingress_pod} | base64 -d > cert.crt
 oc get secret -n openshift-ingress -o 'go-template={{index .data "tls.key"}}' ${ingress_pod} | base64 -d > cert.key
+
 # backup existing secret
 oc get secret -n $NAMESPACE external-tls-secret -o yaml > external-tls-secret.yaml
 # delete existing secret
@@ -41,11 +42,8 @@ oc create secret generic -n $NAMESPACE external-tls-secret --from-file=cert.crt=
 # REPLICAS=$(oc get pods -l component=ibm-nginx -o jsonpath='{ .items[*].metadata.name }' | wc -w)
 oc scale Deployment/ibm-nginx --replicas=0
 # scale up nginx
-sleep 3
+sleep 5
 oc scale Deployment/ibm-nginx --replicas=2
 
-
-
-# deployment.apps/ibm-nginx
 
 oc get pods | grep ibm-nginx
