@@ -8,7 +8,7 @@ The article is based on the the following
 
 #### Note : 
 
-We are migrating this document from WA 3.1 to WA 3.2. So this is a work in-progress article and frequent changes are expected. 
+We are migrating this document from WA 3.1 to WA 3.2. So this is a work in-progress document and frequent changes are expected. 
 
 The pages with the text `Page Status : Final` at the bottom indicates that the migration is complete.
 
@@ -88,7 +88,6 @@ The pages with the text `Page Status : Final` at the bottom indicates that the m
 
 
 ### 4. Setup Operational Systems
-
 <table>
     <tr>
         <td width="4%">S.No</td>
@@ -136,7 +135,7 @@ The pages with the text `Page Status : Final` at the bottom indicates that the m
   </table>
 
 
-### 5. Setup Initial Configurations in Watson AIOps 3.1
+### 5. Setup Initial Configurations in Watson AIOps 3.2.0
 
 <table>
     <tr>
@@ -150,15 +149,13 @@ The pages with the text `Page Status : Final` at the bottom indicates that the m
         <td>Setup Slack Integration</td>
         <td>Integrate with Slack collaboration platform. Need to copy nginx certificate as well.</td>
         <td>
-[Details](./300-aiops-initial-configuration/13-slack-account-creation-and-integration)
-        </td>
+        [Details](./300-aiops-initial-configuration/13-slack-account-creation-and-integration)</td>
     </tr>
     <tr>
         <td>5.2</td>
         <td>Setup Humio Integration</td>
         <td></td>
-        <td>
-[Details](./300-aiops-initial-configuration/10-setup-humio-Integration)
+        <td>[Details](./300-aiops-initial-configuration/10-setup-humio-Integration)
         </td>
     </tr>
     <tr>
