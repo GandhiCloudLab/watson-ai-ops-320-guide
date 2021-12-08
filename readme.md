@@ -134,22 +134,23 @@ The pages with the text `Page Status : Final` at the bottom indicates that the m
     </tr>   
   </table>
 
-
 ### 5. Setup Initial Configurations in Watson AIOps 3.2.0
 
 <table>
     <tr>
         <td width="4%">S.No</td>
         <td width="28%">Title</td>
-        <td width="40%">Description</td>
+        <td width="48%">Description</td>
         <td width="20%">Reference</td>
     </tr>
+       
     <tr>
-        <td>5.1</td>
-        <td>Setup Slack Integration</td>
-        <td>Integrate with Slack collaboration platform. Need to copy nginx certificate as well.</td>
-        <td>
-        [Details](./300-aiops-initial-configuration/13-slack-account-creation-and-integration)</td>
+    <td>5.1</td>
+    <td>Setup Slack Integration</td>
+    <td>Integrate with Slack collaboration platform. Need to copy nginx certificate as well.</td>
+    <td>
+[Details] (./300-aiops-initial-configuration/13-slack-account-creation-and-integration)
+        </td>
     </tr>
     <tr>
         <td>5.2</td>
