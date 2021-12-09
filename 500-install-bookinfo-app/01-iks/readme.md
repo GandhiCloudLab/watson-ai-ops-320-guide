@@ -10,7 +10,7 @@ This article explains about how to install BookInfo app in Kubernetes
 
 3. The `productpage` service is exposed as NodePort and value is `31010`.
 
-4. The above modified file is available  in [./files/bookinfo.yaml](./files/bookinfo.yaml)
+4. The above modified file is available  in [./files/bookinfo-320.yaml](./files/bookinfo-320.yaml)
 
 ### 2. Create Namesapce
 
