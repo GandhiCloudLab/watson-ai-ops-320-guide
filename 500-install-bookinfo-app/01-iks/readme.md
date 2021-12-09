@@ -31,7 +31,7 @@ kubectl config set-context --current --namespace=bookinfo
  Apply the yaml to install the book info app.
 
   ```
-  kubectl apply -f ./files/bookinfo.yaml
+  kubectl apply -f ./files/bookinfo-320.yaml
   ```
 
 
