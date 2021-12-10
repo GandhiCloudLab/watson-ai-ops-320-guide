@@ -4,6 +4,13 @@ This document explains about Installing Watson AIOps AI-Manager on ROKS.
 
 This document is based on the IBM Documentation https://www.ibm.com/docs/en/cloud-paks/cloud-pak-watson-aiops/3.2.0?topic=manager-starter-installation
 
+## Pre-requisite
+
+Global Pull Secret to be updated in Openshift before installing WAIOps 3.2.0. 
+
+Here is the link to that.
+
+[02-update-global-pull-secrets](./02-update-global-pull-secrets)
 
 ## 1. Create Project, entitlement key secret and catalog source  
 
