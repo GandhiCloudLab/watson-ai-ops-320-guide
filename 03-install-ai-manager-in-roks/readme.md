@@ -10,7 +10,7 @@ Global Pull Secret to be updated in Openshift before installing WAIOps 3.2.0.
 
 Here is the link to that.
 
-[02-update-global-pull-secrets](./02-update-global-pull-secrets)
+[02-update-global-pull-secrets](../02-update-global-pull-secrets)
 
 ## 1. Create Project, entitlement key secret and catalog source  
 
